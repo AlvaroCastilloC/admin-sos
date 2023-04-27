@@ -18,6 +18,12 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/Map/Mapview.jsx",
+    "components/Notifications.tsx/Notification.jsx"
+  ],
   "exclude": ["node_modules"]
 }

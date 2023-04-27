@@ -9,14 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.18.1",
     "@types/node": "18.15.13",
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
+    "autoprefixer": "^10.4.14",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "google-map-react": "^2.2.0",
+    "leaflet": "^1.9.3",
     "next": "13.3.0",
+    "postcss": "^8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-leaflet": "^4.2.1",
+    "reapop": "^4.2.1",
+    "tailwindcss": "^3.3.2",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.3"
   }
 }
